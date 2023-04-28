@@ -9,14 +9,14 @@ const ProjectShowcase = () => {
             className="bg-gradient-to-b from-sky-400 dark:from-slate-800 dark:to-black py-4 scroll-mt-10"
             id="projectShowcase"
         >
-            <h2 className="text-xl font-bold mx-20 text-gray-800 dark:text-white ">
+            <h2 className="text-2xl font-bold mx-20 text-gray-800 dark:text-white text-center pb-4">
                 Projects
             </h2>
-            <div className="sm:grid md:grid-cols-3 sm:grid-cols-2 mx-20 ">
+            <div className="grid md:grid-cols-3 sm:grid-cols-2 md:mx-20 gap-6 mx-6">
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] m-2"
+                        className="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]"
                     >
                         <picture>
                             <source
@@ -45,13 +45,16 @@ const ProjectShowcase = () => {
                                         target="_blank"
                                         rel="noreferrer noopener"
                                         className="pr-2"
+                                        aria-label="project repository"
                                     >
                                         <GoMarkGithub className="text-xl dark:text-white" />
                                     </a>
+                                    {/* live page link */}
                                     <a
                                         href={project.liveLink}
                                         target="_blank"
                                         rel="noreferrer noopener"
+                                        aria-label="view project in new window"
                                     >
                                         <MdOpenInNew className="text-xl dark:text-white" />
                                     </a>
