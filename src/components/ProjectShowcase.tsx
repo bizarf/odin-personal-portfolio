@@ -1,7 +1,7 @@
 import React from "react";
 import { GoMarkGithub } from "react-icons/go";
 import { MdOpenInNew } from "react-icons/md";
-import projects from "./Projects";
+import projects from "./projects";
 
 const ProjectShowcase = () => {
     return (

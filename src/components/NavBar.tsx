@@ -4,13 +4,8 @@ const NavBar = () => {
     const [theme, setTheme] = useState<string>();
 
     useEffect(() => {
-        const themeAppearance = {
-            init() {
-                const pageTheme = localStorage.getItem("theme") || "light";
-                setTheme(pageTheme);
-            },
-        };
-        themeAppearance.init();
+        const pageTheme = localStorage.getItem("theme") || "light";
+        setTheme(pageTheme);
     }, []);
 
     useEffect(() => {
