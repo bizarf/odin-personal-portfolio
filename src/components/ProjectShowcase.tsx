@@ -29,8 +29,8 @@ const ProjectShowcase = () => {
                             />
                             <img
                                 src={project.mobileImage}
-                                alt={project.cardTitle}
-                                className="w-full h-auto rounded-t-xl"
+                                alt=""
+                                className=" h-56 object-cover rounded-t-xl w-full"
                             />
                         </picture>
                         <div className="p-4 md:p-5">

@@ -1,6 +1,6 @@
 # The Odin Project - Project: Personal Portfolio
 
-The goal of this project is to
+The goal of this project is to make a responsive personal portfolio site.
 
 [View the live site here](https://bizarf.github.io/odin-personal-portfolio)
 
