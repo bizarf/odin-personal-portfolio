@@ -26,6 +26,22 @@ import battleshipCardMedium from "../assets/projects/battleship-card_medium.webp
 import weatherAppCard from "../assets/projects/weatherApp-card.webp";
 import weatherAppCardSmall from "../assets/projects/weatherApp-card_small.webp";
 import weatherAppCardMedium from "../assets/projects/weatherApp-card_medium.webp";
+// tictagtoe app
+import ticTacToeCard from "../assets/projects/tictactoe-card.webp";
+import ticTacToeCardSmall from "../assets/projects/tictactoe-card_small.webp";
+import ticTacToeCardMedium from "../assets/projects/tictactoe-card_medium.webp";
+// members only
+import membersOnlyCard from "../assets/projects/members_only-card.webp";
+import membersOnlyCardSmall from "../assets/projects/members_only-card_small.webp";
+import membersOnlyCardMedium from "../assets/projects/members_only-card_medium.webp";
+// blog api
+import blogApiCard from "../assets/projects/blogApi-card.webp";
+import blogApiCardSmall from "../assets/projects/blogApi-card_small.webp";
+import blogApiCardMedium from "../assets/projects/blogApi-card_medium.webp";
+// odin book
+import odinBookCard from "../assets/projects/odinBook-card.webp";
+import odinBookCardSmall from "../assets/projects/odinBook-card-small.webp";
+import odinBookCardMedium from "../assets/projects/odinBook-card-medium.webp";
 
 // array to hold the projects for the showcase
 const projects: {
@@ -37,6 +53,36 @@ const projects: {
     repoLink: string;
     liveLink: string;
 }[] = [
+    {
+        mainImage: odinBookCard,
+        mobileImage: odinBookCardSmall,
+        tabletImage: odinBookCardMedium,
+        cardTitle: "Odin Book",
+        cardDescription:
+            "A full stack social media app based on Facebook. This was made with Typescript, React, Tailwind CSS, and Playwright. This was the final project for The Odin Project. ",
+        repoLink: "https://github.com/bizarf/odin-book-client",
+        liveLink: "https://bizarf.github.io/odin-book-client/",
+    },
+    {
+        mainImage: blogApiCard,
+        mobileImage: blogApiCardSmall,
+        tabletImage: blogApiCardMedium,
+        cardTitle: "Blog API",
+        cardDescription:
+            "A full stack REST API project which would be used for a blog client and blog CMS. This was made with Typescript, React, Tailwind CSS, and API testing done with Mocha, Chai, and Supertest. ",
+        repoLink: "https://github.com/bizarf/odin-blog-api",
+        liveLink: "https://bizarf.github.io/odin-blog-client/",
+    },
+    {
+        mainImage: membersOnlyCard,
+        mobileImage: membersOnlyCardSmall,
+        tabletImage: membersOnlyCardMedium,
+        cardTitle: "Members only club",
+        cardDescription:
+            "A secret club house app, where people can leave messages and not have their name shown to guests. This was made with Express, Pug, Passport JS, and Mongoose. ",
+        repoLink: "https://github.com/bizarf/odin-blog-api",
+        liveLink: "https://bizarf.github.io/odin-blog-client/",
+    },
     {
         mainImage: keepCloneCard,
         mobileImage: keepCloneCardSmall,
@@ -106,6 +152,15 @@ const projects: {
             "An app that tells the current weather condition on the entered city. This was made with Javascript.",
         repoLink: "https://github.com/bizarf/odin-weather-app",
         liveLink: "https://bizarf.github.io/odin-weather-app/",
+    },
+    {
+        mainImage: ticTacToeCard,
+        mobileImage: ticTacToeCardSmall,
+        tabletImage: ticTacToeCardMedium,
+        cardTitle: "Tic Tac Toe app",
+        cardDescription: "A tic tac toe game created in Javascript.",
+        repoLink: "https://github.com/bizarf/odin-tic-tac-toe",
+        liveLink: "https://bizarf.github.io/odin-tic-tac-toe/",
     },
 ];
 

@@ -15,7 +15,7 @@ const ContactMe = () => {
                     are interested in my work.
                 </p>
                 <form
-                    action="mailto:bizarf40@gmail.com"
+                    action="mailto:tonyhoong40@gmail.com"
                     method="post"
                     className="dark:bg-gray-800 p-4 rounded-xl bg-yellow-200"
                 >

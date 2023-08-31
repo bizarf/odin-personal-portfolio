@@ -8,6 +8,10 @@ import firebaseIcon from "../assets/Icons/firebase-plain.svg";
 import tailwindCssIcon from "../assets/Icons/tailwindcss-plain.svg";
 import vitestIcon from "../assets/Icons/vitest.svg";
 import gitIcon from "../assets/Icons/git-original.svg";
+import nodeJsIcon from "../assets/Icons/nodejs-original.svg";
+import expressIcon from "../assets/Icons/express-original.svg";
+import mongoDbIcon from "../assets/Icons/mongodb-original.svg";
+import mochaIcon from "../assets/Icons/mocha-plain.svg";
 
 // array of all the technologies and tools I use
 const techAndTools: {
@@ -53,6 +57,22 @@ const techAndTools: {
     {
         icon: vitestIcon,
         name: "Vitest",
+    },
+    {
+        icon: nodeJsIcon,
+        name: "NodeJS",
+    },
+    {
+        icon: expressIcon,
+        name: "Express",
+    },
+    {
+        icon: mongoDbIcon,
+        name: "MongoDB",
+    },
+    {
+        icon: mochaIcon,
+        name: "Mocha",
     },
 ];
 

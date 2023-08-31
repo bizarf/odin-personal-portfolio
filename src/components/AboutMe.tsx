@@ -45,8 +45,8 @@ const AboutMe = () => {
                                 <GoMarkGithub className="text-2xl dark:text-white mr-2" />
                             </a>
                             <a
-                                href="mailto:bizarf40@gmail.com"
-                                aria-label="bizarf40@gmail.com"
+                                href="mailto:tonyhoong40@gmail.com"
+                                aria-label="tonyhoong40@gmail.com"
                             >
                                 <MdOutlineEmail className="text-2xl dark:text-white" />
                             </a>
