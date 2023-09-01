@@ -80,8 +80,8 @@ const projects: {
         cardTitle: "Members only club",
         cardDescription:
             "A secret club house app, where people can leave messages and not have their name shown to guests. This was made with Express, Pug, Passport JS, and Mongoose. ",
-        repoLink: "https://github.com/bizarf/odin-blog-api",
-        liveLink: "https://bizarf.github.io/odin-blog-client/",
+        repoLink: "https://github.com/bizarf/odin-members-only",
+        liveLink: "https://odin-members-only-z4hw.onrender.com/",
     },
     {
         mainImage: keepCloneCard,
