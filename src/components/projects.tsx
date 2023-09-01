@@ -59,7 +59,7 @@ const projects: {
         tabletImage: odinBookCardMedium,
         cardTitle: "Odin Book",
         cardDescription:
-            "A full stack social media app based on Facebook. This was made with Typescript, React, Tailwind CSS, and Playwright. This was the final project for The Odin Project. ",
+            "A full stack social media app based on Facebook. This was made with TypeScript, React, Tailwind CSS, and Playwright. This was the final project for The Odin Project. ",
         repoLink: "https://github.com/bizarf/odin-book-client",
         liveLink: "https://bizarf.github.io/odin-book-client/",
     },
@@ -69,7 +69,7 @@ const projects: {
         tabletImage: blogApiCardMedium,
         cardTitle: "Blog API",
         cardDescription:
-            "A full stack REST API project which would be used for a blog client and blog CMS. This was made with Typescript, React, Tailwind CSS, and API testing done with Mocha, Chai, and Supertest. ",
+            "A full stack REST API project which would be used for a blog client and blog CMS. This was made with TypeScript, React, Tailwind CSS, and API testing done with Mocha, Chai, and Supertest. ",
         repoLink: "https://github.com/bizarf/odin-blog-api",
         liveLink: "https://bizarf.github.io/odin-blog-client/",
     },
@@ -89,7 +89,7 @@ const projects: {
         tabletImage: keepCloneCardMedium,
         cardTitle: "Keep Clone",
         cardDescription:
-            "A full stack clone of Google Keep made with Typescript, React, Firebase (Fireauth, Firestore), Tailwind CSS, DaisyUI, and Vitest. This was my first project using Typescript, and Tailwind CSS.",
+            "A full stack clone of Google Keep made with TypeScript, React, Firebase (Fireauth, Firestore), Tailwind CSS, DaisyUI, and Vitest. This was my first project using TypeScript, and Tailwind CSS.",
         repoLink: "https://github.com/bizarf/odin-keep-clone",
         liveLink: "https://bizarf.github.io/odin-keep-clone/",
     },
@@ -99,7 +99,7 @@ const projects: {
         tabletImage: personalPortfolioCardMedium,
         cardTitle: "Personal Portfolio",
         cardDescription:
-            "My personal portfolio made with Typescript, React, Tailwind CSS, and Preline UI.",
+            "My personal portfolio made with TypeScript, React, Tailwind CSS, and Preline UI.",
         repoLink: "https://github.com/bizarf/odin-personal-portfolio",
         liveLink: "https://bizarf.github.io/odin-personal-portfolio",
     },

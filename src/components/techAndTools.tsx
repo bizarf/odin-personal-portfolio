@@ -32,7 +32,7 @@ const techAndTools: {
     },
     {
         icon: typescriptIcon,
-        name: "Typescript",
+        name: "TypeScript",
     },
     {
         icon: reactIcon,
