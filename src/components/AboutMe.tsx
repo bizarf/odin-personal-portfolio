@@ -6,11 +6,11 @@ import techAndTools from "./techAndTools";
 const AboutMe = () => {
     return (
         <section
-            className="py-4 bg-gradient-to-t from-sky-400 dark:to-black dark:from-slate-800 scroll-mt-10"
+            className="py-4 bg-gradient-to-t from-sky-400 dark:to-black dark:from-slate-700 scroll-mt-10"
             id="aboutMe"
         >
             <div className="grid md:grid-cols-2 md:mx-20 md:gap-8 gap-6 mx-4">
-                <div className="md:px-4 dark:bg-gray-800 p-4 rounded-xl bg-yellow-200">
+                <div className="md:px-4 dark:bg-gray-800 p-4 rounded-xl bg-yellow-100">
                     <h2 className="text-gray-800 dark:text-white text-xl font-bold pb-2">
                         About Me
                     </h2>
@@ -53,7 +53,7 @@ const AboutMe = () => {
                         </div>
                     </div>
                 </div>
-                <div className="md:px-4 dark:bg-gray-800 p-4 rounded-xl bg-yellow-200">
+                <div className="md:px-4 dark:bg-gray-800 p-4 rounded-xl bg-yellow-100">
                     <h2 className="text-gray-800 dark:text-white text-xl font-bold pb-2">
                         Technologies and tools
                     </h2>

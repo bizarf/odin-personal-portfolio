@@ -43,10 +43,6 @@ const techAndTools: {
         name: "Tailwind CSS",
     },
     {
-        icon: vsCodeIcon,
-        name: "VS Code",
-    },
-    {
         icon: gitIcon,
         name: "Git",
     },

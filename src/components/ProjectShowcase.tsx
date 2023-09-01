@@ -6,7 +6,7 @@ import projects from "./projects";
 const ProjectShowcase = () => {
     return (
         <section
-            className="bg-gradient-to-b from-sky-400 dark:from-slate-800 dark:to-black py-4 scroll-mt-10"
+            className="bg-gradient-to-b from-sky-400 dark:from-slate-700 dark:to-black py-4 scroll-mt-10"
             id="projectShowcase"
         >
             <h2 className="text-2xl font-bold mx-20 text-gray-800 dark:text-white text-center pb-4">

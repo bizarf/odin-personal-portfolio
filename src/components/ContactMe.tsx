@@ -10,14 +10,14 @@ const ContactMe = () => {
                 Contact Me
             </h2>
             <div className="grid md:grid-cols-2 md:mx-20 md:gap-8 gap-6 mx-4">
-                <p className="text-gray-800 dark:text-gray-400 bg-yellow-200 p-4 rounded-xl dark:bg-gray-800 h-fit">
+                <p className="text-gray-800 dark:text-gray-400 bg-yellow-100 p-4 rounded-xl dark:bg-gray-800 h-fit">
                     Feel free to send me a message if you have any questions or
                     are interested in my work.
                 </p>
                 <form
                     action="mailto:tonyhoong40@gmail.com"
                     method="post"
-                    className="dark:bg-gray-800 p-4 rounded-xl bg-yellow-200"
+                    className="dark:bg-gray-800 p-4 rounded-xl bg-yellow-100"
                 >
                     <label
                         htmlFor="contactName"
