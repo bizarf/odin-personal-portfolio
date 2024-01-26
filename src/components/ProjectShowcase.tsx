@@ -1,5 +1,5 @@
 import React from "react";
-import { GoMarkGithub } from "react-icons/go";
+import { GrGithub } from "react-icons/gr";
 import { MdOpenInNew } from "react-icons/md";
 import projects from "./projects";
 
@@ -16,7 +16,7 @@ const ProjectShowcase = () => {
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]"
+                        className="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] transition ease-in-out hover:scale-105"
                     >
                         <picture>
                             <source
@@ -47,7 +47,7 @@ const ProjectShowcase = () => {
                                         className="pr-2"
                                         aria-label="project repository"
                                     >
-                                        <GoMarkGithub className="text-xl dark:text-white" />
+                                        <GrGithub className="text-xl dark:text-white" />
                                     </a>
                                     {/* live page link */}
                                     <a

@@ -19,45 +19,51 @@ const ContactMe = () => {
                     method="post"
                     className="dark:bg-gray-800 p-4 rounded-xl bg-yellow-100"
                 >
-                    <label
-                        htmlFor="contactName"
-                        className="block text-sm font-medium mb-2 dark:text-white"
-                    >
-                        Name:
-                    </label>
-                    <input
-                        type="text"
-                        className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
-                        id="contactName"
-                        name="name"
-                        required
-                    />
-                    <label
-                        htmlFor="contactEmail"
-                        className="block text-sm font-medium mb-2 dark:text-white"
-                    >
-                        Email
-                    </label>
-                    <input
-                        type="email"
-                        className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
-                        id="contactEmail"
-                        name="email"
-                        required
-                    />
-                    <label
-                        htmlFor="contactMessage"
-                        className="block text-sm font-medium mb-2 dark:text-white"
-                    >
-                        Message
-                    </label>
-                    <textarea
-                        className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
-                        id="contactMessage"
-                        name="message"
-                        rows={4}
-                        required
-                    />
+                    <div className="mb-4 sm:mb-8">
+                        <label
+                            htmlFor="contactName"
+                            className="block mb-2 text-sm font-medium dark:text-white"
+                        >
+                            Name:
+                        </label>
+                        <input
+                            type="text"
+                            className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
+                            id="contactName"
+                            name="name"
+                            required
+                        />
+                    </div>
+                    <div className="mb-4 sm:mb-8">
+                        <label
+                            htmlFor="contactEmail"
+                            className="block mb-2 text-sm font-medium dark:text-white"
+                        >
+                            Email
+                        </label>
+                        <input
+                            type="email"
+                            className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
+                            id="contactEmail"
+                            name="email"
+                            required
+                        />
+                    </div>
+                    <div>
+                        <label
+                            htmlFor="contactMessage"
+                            className="block mb-2 text-sm font-medium dark:text-white"
+                        >
+                            Message
+                        </label>
+                        <textarea
+                            className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400"
+                            id="contactMessage"
+                            name="message"
+                            rows={4}
+                            required
+                        />
+                    </div>
                     <input
                         type="submit"
                         value="Submit"

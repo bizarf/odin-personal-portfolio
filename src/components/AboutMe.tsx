@@ -1,6 +1,6 @@
 import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
-import { GoMarkGithub } from "react-icons/go";
+import { GrGithub } from "react-icons/gr";
 import techAndTools from "./techAndTools";
 
 const AboutMe = () => {
@@ -42,7 +42,7 @@ const AboutMe = () => {
                                 rel="noreferrer noopener"
                                 aria-label="My Github repository"
                             >
-                                <GoMarkGithub className="text-2xl dark:text-white mr-2" />
+                                <GrGithub className="text-2xl dark:text-white mr-2" />
                             </a>
                             <a
                                 href="mailto:tonyhoong40@gmail.com"

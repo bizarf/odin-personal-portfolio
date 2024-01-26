@@ -12,6 +12,7 @@ import nodeJsIcon from "../assets/Icons/nodejs-original.svg";
 import expressIcon from "../assets/Icons/express-original.svg";
 import mongoDbIcon from "../assets/Icons/mongodb-original.svg";
 import mochaIcon from "../assets/Icons/mocha-plain.svg";
+import mySqlIcon from "../assets/Icons/mysql-original.svg";
 
 // array of all the technologies and tools I use
 const techAndTools: {
@@ -69,6 +70,10 @@ const techAndTools: {
     {
         icon: mochaIcon,
         name: "Mocha",
+    },
+    {
+        icon: mySqlIcon,
+        name: "MySQL",
     },
 ];
 
