@@ -3,7 +3,6 @@ import cssIcon from "../assets/Icons/css3-original.svg";
 import javascriptIcon from "../assets/Icons/javascript-original.svg";
 import typescriptIcon from "../assets/Icons/typescript-original.svg";
 import reactIcon from "../assets/Icons/react-original.svg";
-import vsCodeIcon from "../assets/Icons/vscode-original.svg";
 import firebaseIcon from "../assets/Icons/firebase-plain.svg";
 import tailwindCssIcon from "../assets/Icons/tailwindcss-plain.svg";
 import vitestIcon from "../assets/Icons/vitest.svg";
@@ -13,6 +12,8 @@ import expressIcon from "../assets/Icons/express-original.svg";
 import mongoDbIcon from "../assets/Icons/mongodb-original.svg";
 import mochaIcon from "../assets/Icons/mocha-plain.svg";
 import mySqlIcon from "../assets/Icons/mysql-original.svg";
+import pythonIcon from "../assets/Icons/python-original.svg";
+import fastApiIcon from "../assets/Icons/fastapi-original.svg";
 
 // array of all the technologies and tools I use
 const techAndTools: {
@@ -36,6 +37,10 @@ const techAndTools: {
         name: "TypeScript",
     },
     {
+        icon: pythonIcon,
+        name: "Python",
+    },
+    {
         icon: reactIcon,
         name: "React",
     },
@@ -48,12 +53,12 @@ const techAndTools: {
         name: "Git",
     },
     {
-        icon: firebaseIcon,
-        name: "Firebase",
-    },
-    {
         icon: vitestIcon,
         name: "Vitest",
+    },
+    {
+        icon: mochaIcon,
+        name: "Mocha",
     },
     {
         icon: nodeJsIcon,
@@ -64,12 +69,16 @@ const techAndTools: {
         name: "Express",
     },
     {
-        icon: mongoDbIcon,
-        name: "MongoDB",
+        icon: fastApiIcon,
+        name: "FastAPI",
     },
     {
-        icon: mochaIcon,
-        name: "Mocha",
+        icon: firebaseIcon,
+        name: "Firebase",
+    },
+    {
+        icon: mongoDbIcon,
+        name: "MongoDB",
     },
     {
         icon: mySqlIcon,

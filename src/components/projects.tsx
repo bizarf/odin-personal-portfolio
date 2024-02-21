@@ -42,6 +42,10 @@ import blogApiCardMedium from "../assets/projects/blogApi-card_medium.webp";
 import odinBookCard from "../assets/projects/odinBook-card.webp";
 import odinBookCardSmall from "../assets/projects/odinBook-card-small.webp";
 import odinBookCardMedium from "../assets/projects/odinBook-card-medium.webp";
+// pomotimer
+import pomoTimerCard from "../assets/projects/pomotimer-card.webp";
+import pomoTimerCardSmall from "../assets/projects/pomotimer-card_small.webp";
+import pomoTimerCardMedium from "../assets/projects/pomotimer-card_medium.webp";
 
 // array to hold the projects for the showcase
 const projects: {
@@ -74,15 +78,25 @@ const projects: {
         liveLink: "https://bizarf.github.io/odin-blog-client/",
     },
     {
-        mainImage: membersOnlyCard,
-        mobileImage: membersOnlyCardSmall,
-        tabletImage: membersOnlyCardMedium,
-        cardTitle: "Members only club",
+        mainImage: pomoTimerCard,
+        mobileImage: pomoTimerCardSmall,
+        tabletImage: pomoTimerCardMedium,
+        cardTitle: "PomoTimer",
         cardDescription:
-            "A secret club house app, where people can leave messages and not have their name shown to guests. This was made with Express, Pug, Passport JS, and Mongoose. ",
-        repoLink: "https://github.com/bizarf/odin-members-only",
-        liveLink: "https://odin-members-only-z4hw.onrender.com/",
+            "A pomodoro timer inspired by PomoFocus. This was made with React, and TypeScript. This makes use of the Notification API, and has LocalStorage support. ",
+        repoLink: "https://github.com/bizarf/pomodoro-timer",
+        liveLink: "https://bizarf.github.io/pomodoro-timer/",
     },
+    // {
+    //     mainImage: membersOnlyCard,
+    //     mobileImage: membersOnlyCardSmall,
+    //     tabletImage: membersOnlyCardMedium,
+    //     cardTitle: "Members only club",
+    //     cardDescription:
+    //         "A secret club house app, where people can leave messages and not have their name shown to guests. This was made with Express, Pug, Passport JS, and Mongoose. ",
+    //     repoLink: "https://github.com/bizarf/odin-members-only",
+    //     liveLink: "https://odin-members-only-z4hw.onrender.com/",
+    // },
     {
         mainImage: keepCloneCard,
         mobileImage: keepCloneCardSmall,

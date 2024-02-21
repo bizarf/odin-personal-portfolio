@@ -6,7 +6,7 @@ import projects from "./projects";
 const ProjectShowcase = () => {
     return (
         <section
-            className="bg-gradient-to-b from-sky-400 dark:from-slate-700 dark:to-black py-4 scroll-mt-10"
+            className="bg-gradient-to-b from-sky-400 to-gray-200 dark:from-slate-700 dark:to-black py-6 scroll-mt-10"
             id="projectShowcase"
         >
             <h2 className="text-2xl font-bold mx-20 text-gray-800 dark:text-white text-center pb-4">
@@ -16,9 +16,9 @@ const ProjectShowcase = () => {
                 {projects.map((project, index) => (
                     <div
                         key={index}
-                        className="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] transition ease-in-out hover:scale-105"
+                        className="flex flex-col bg-white border border-black shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7] transition ease-in-out sm:hover:scale-110"
                     >
-                        <picture>
+                        <picture className="border-b border-black dark:border-gray-700">
                             <source
                                 srcSet={project.mainImage}
                                 media="(min-width: 768px)"

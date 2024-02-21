@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
 import NavBar from "./components/NavBar";
 import Splash from "./components/Splash";
+import "./App.css";
 
 const App = () => {
     return (

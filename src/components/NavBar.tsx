@@ -24,36 +24,36 @@ const NavBar = () => {
     }, [theme]);
 
     return (
-        <header className="flex z-50 w-full bg-white text-sm py-4 dark:bg-gray-800 sticky top-0">
+        <header className="flex z-50 w-full text-sm py-4 dark:bg-gray-800 sticky top-0 bg-stone-100">
             <nav className="flex flex-row items-center gap-5 px-5 w-full sm:justify-end justify-between">
                 <a
                     href="#splashPage"
-                    className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"
+                    className="font-medium text-gray-800 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-500"
                 >
                     Home
                 </a>
                 <a
                     href="#aboutMe"
-                    className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"
+                    className="font-medium text-gray-800 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-500"
                 >
                     About Me
                 </a>
                 <a
                     href="#projectShowcase"
-                    className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"
+                    className="font-medium text-gray-800 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-500"
                 >
                     Project Showcase
                 </a>
                 <a
                     href="#contactMe"
-                    className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"
+                    className="font-medium text-gray-800 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-500"
                 >
                     Contact Me
                 </a>
                 {/* dark mode button toggle */}
                 {theme === "light" && (
                     <button
-                        className="items-center text-gray-600 hover:text-blue-600 font-medium dark:text-gray-400 dark:hover:text-gray-500"
+                        className="items-center text-gray-800 hover:text-blue-600 font-medium dark:text-gray-400 dark:hover:text-gray-500"
                         aria-label="Turn on dark mode"
                         onClick={() => setTheme("dark")}
                     >
@@ -71,7 +71,7 @@ const NavBar = () => {
                 )}
                 {theme === "dark" && (
                     <button
-                        className="items-center text-gray-600 hover:text-blue-600 font-medium dark:text-gray-400 dark:hover:text-gray-500"
+                        className="items-center text-gray-800 hover:text-blue-600 font-medium dark:text-gray-400 dark:hover:text-gray-500"
                         aria-label="Turn on light mode"
                         onClick={() => setTheme("light")}
                     >
