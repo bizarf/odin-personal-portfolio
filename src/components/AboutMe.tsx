@@ -1,6 +1,6 @@
 import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
-import { GrGithub } from "react-icons/gr";
+import { GrGithub, GrLinkedin } from "react-icons/gr";
 import techAndTools from "./techAndTools";
 
 const AboutMe = () => {
@@ -48,6 +48,14 @@ const AboutMe = () => {
                             </p>
                         </div>
                         <div className="self-end mb-10 flex">
+                            <a
+                                href="https://www.linkedin.com/in/tony-hoong-ab43a6288/"
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                aria-label="My LinkedIn account"
+                            >
+                                <GrLinkedin className="text-2xl dark:text-white mr-2" />
+                            </a>
                             <a
                                 href="https://github.com/bizarf?tab=repositories"
                                 target="_blank"

@@ -46,6 +46,10 @@ import odinBookCardMedium from "../assets/projects/odinBook-card-medium.webp";
 import pomoTimerCard from "../assets/projects/pomotimer-card.webp";
 import pomoTimerCardSmall from "../assets/projects/pomotimer-card_small.webp";
 import pomoTimerCardMedium from "../assets/projects/pomotimer-card_medium.webp";
+// retrogamedb
+import retroGameDbCard from "../assets/projects/retrogamedb-card.webp";
+import retroGameDbCardSmall from "../assets/projects/retrogamedb-card_small.webp";
+import retroGameDbCardMedium from "../assets/projects/retrogamedb-card_medium.webp";
 
 // array to hold the projects for the showcase
 const projects: {
@@ -58,12 +62,22 @@ const projects: {
     liveLink: string;
 }[] = [
     {
+        mainImage: retroGameDbCard,
+        mobileImage: retroGameDbCardSmall,
+        tabletImage: retroGameDbCardMedium,
+        cardTitle: "RetroGame DB",
+        cardDescription:
+            "A full stack retro video game themed database website with REST API made in FastAPI. This was made using Python, FastAPI, MySQL, TypeScript, React, and Tailwind CSS. ",
+        repoLink: "https://github.com/bizarf/retrogame-db-python-api",
+        liveLink: "https://bizarf.github.io/retrogame-db-client",
+    },
+    {
         mainImage: odinBookCard,
         mobileImage: odinBookCardSmall,
         tabletImage: odinBookCardMedium,
         cardTitle: "Odin Book",
         cardDescription:
-            "A full stack social media app based on Facebook. This was made with TypeScript, React, Tailwind CSS, and Playwright. This was the final project for The Odin Project. ",
+            "A full stack social media app based on Facebook. This was made using TypeScript, React, Tailwind CSS, MongoDB, Express JS, and Playwright. This was the final project for The Odin Project. ",
         repoLink: "https://github.com/bizarf/odin-book-client",
         liveLink: "https://bizarf.github.io/odin-book-client/",
     },
@@ -73,7 +87,7 @@ const projects: {
         tabletImage: blogApiCardMedium,
         cardTitle: "Blog API",
         cardDescription:
-            "A full stack REST API project which would be used for a blog client and blog CMS. This was made with TypeScript, React, Tailwind CSS, and API testing done with Mocha, Chai, and Supertest. ",
+            "A full stack REST API project which would be used for a blog client and blog CMS. This was made using TypeScript, React, Tailwind CSS, MongoDB, Express JS, and API testing done with Mocha, Chai, and Supertest. ",
         repoLink: "https://github.com/bizarf/odin-blog-api",
         liveLink: "https://bizarf.github.io/odin-blog-client/",
     },
@@ -107,16 +121,16 @@ const projects: {
         repoLink: "https://github.com/bizarf/odin-keep-clone",
         liveLink: "https://bizarf.github.io/odin-keep-clone/",
     },
-    {
-        mainImage: personalPortfolioCard,
-        mobileImage: personalPortfolioCardSmall,
-        tabletImage: personalPortfolioCardMedium,
-        cardTitle: "Personal Portfolio",
-        cardDescription:
-            "My personal portfolio made with TypeScript, React, Tailwind CSS, and Preline UI.",
-        repoLink: "https://github.com/bizarf/odin-personal-portfolio",
-        liveLink: "https://bizarf.github.io/odin-personal-portfolio",
-    },
+    // {
+    //     mainImage: personalPortfolioCard,
+    //     mobileImage: personalPortfolioCardSmall,
+    //     tabletImage: personalPortfolioCardMedium,
+    //     cardTitle: "Personal Portfolio",
+    //     cardDescription:
+    //         "My personal portfolio made with TypeScript, React, Tailwind CSS, and Preline UI.",
+    //     repoLink: "https://github.com/bizarf/odin-personal-portfolio",
+    //     liveLink: "https://bizarf.github.io/odin-personal-portfolio",
+    // },
     {
         mainImage: waldoCard,
         mobileImage: waldoCardSmall,
