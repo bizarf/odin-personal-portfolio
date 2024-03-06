@@ -38,8 +38,13 @@ const AboutMe = () => {
                                 >
                                     FreeCodeCamp
                                 </a>
-                                . I am currently studying a Level 3 Software
-                                Development course.
+                                .
+                            </p>
+                            <p className="text-gray-800 dark:text-gray-400 pt-4">
+                                I've recently completed a Level 3 Software
+                                Development course where I further refined my
+                                skills in HTML, CSS, and JavaScript. I also
+                                learnt Python and MySQL.
                             </p>
                             <p className="text-gray-800 dark:text-gray-400 pt-4">
                                 There have been many challenges throughout the
