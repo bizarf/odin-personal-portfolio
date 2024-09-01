@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectShowcase from "./components/ProjectShowcase";
 import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";

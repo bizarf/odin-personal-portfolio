@@ -21,7 +21,6 @@ npm run dev
 -   Prettier
 -   ESlint
 -   Tailwind CSS
--   Preline UI
 
 <hr>
 
