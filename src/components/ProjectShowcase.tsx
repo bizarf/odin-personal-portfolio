@@ -1,7 +1,12 @@
-import React from "react";
 import { GrGithub } from "react-icons/gr";
 import { MdOpenInNew } from "react-icons/md";
 import projects from "./projects";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const ProjectShowcase = () => {
     return (
@@ -12,7 +17,7 @@ const ProjectShowcase = () => {
             <h2 className="text-2xl font-bold mx-20 text-gray-800 dark:text-white text-center pb-4">
                 Projects
             </h2>
-            <div className="grid md:grid-cols-3 sm:grid-cols-2 md:mx-20 gap-6 mx-6">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 md:mx-20 gap-6 mx-6">
                 {projects.map((project, index) => (
                     <div
                         key={index}
@@ -40,24 +45,45 @@ const ProjectShowcase = () => {
                                 </h3>
                                 <div className="flex">
                                     {/* repo link */}
-                                    <a
-                                        href={project.repoLink}
-                                        target="_blank"
-                                        rel="noreferrer noopener"
-                                        className="pr-2"
-                                        aria-label="project repository"
-                                    >
-                                        <GrGithub className="text-xl dark:text-white" />
-                                    </a>
+                                    <TooltipProvider>
+                                        <Tooltip>
+                                            <TooltipTrigger className="pr-2">
+                                                <a
+                                                    href={project.repoLink}
+                                                    target="_blank"
+                                                    rel="noreferrer noopener"
+                                                    aria-label="project repository"
+                                                >
+                                                    <GrGithub className="text-xl dark:text-white" />
+                                                </a>
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                                <p>
+                                                    View the project's
+                                                    repository
+                                                </p>
+                                            </TooltipContent>
+                                        </Tooltip>
+                                    </TooltipProvider>
+
                                     {/* live page link */}
-                                    <a
-                                        href={project.liveLink}
-                                        target="_blank"
-                                        rel="noreferrer noopener"
-                                        aria-label="view project in new window"
-                                    >
-                                        <MdOpenInNew className="text-xl dark:text-white" />
-                                    </a>
+                                    <TooltipProvider>
+                                        <Tooltip>
+                                            <TooltipTrigger>
+                                                <a
+                                                    href={project.liveLink}
+                                                    target="_blank"
+                                                    rel="noreferrer noopener"
+                                                    aria-label="view project in new window"
+                                                >
+                                                    <MdOpenInNew className="text-xl dark:text-white" />
+                                                </a>
+                                            </TooltipTrigger>
+                                            <TooltipContent>
+                                                <p>View the live project</p>
+                                            </TooltipContent>
+                                        </Tooltip>
+                                    </TooltipProvider>
                                 </div>
                             </div>
                             <p className="mt-1 text-gray-800 dark:text-gray-400">

@@ -1,7 +1,12 @@
-import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { GrGithub, GrLinkedin } from "react-icons/gr";
 import techAndTools from "./techAndTools";
+import {
+    Tooltip,
+    TooltipContent,
+    TooltipProvider,
+    TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const AboutMe = () => {
     return (
@@ -53,28 +58,55 @@ const AboutMe = () => {
                             </p>
                         </div>
                         <div className="self-end mb-10 flex">
-                            <a
-                                href="https://www.linkedin.com/in/tony-hoong-ab43a6288/"
-                                target="_blank"
-                                rel="noreferrer noopener"
-                                aria-label="My LinkedIn account"
-                            >
-                                <GrLinkedin className="text-2xl dark:text-white mr-2" />
-                            </a>
-                            <a
-                                href="https://github.com/bizarf?tab=repositories"
-                                target="_blank"
-                                rel="noreferrer noopener"
-                                aria-label="My Github repository"
-                            >
-                                <GrGithub className="text-2xl dark:text-white mr-2" />
-                            </a>
-                            <a
-                                href="mailto:tonyhoong40@gmail.com"
-                                aria-label="tonyhoong40@gmail.com"
-                            >
-                                <MdOutlineEmail className="text-2xl dark:text-white" />
-                            </a>
+                            <TooltipProvider>
+                                <Tooltip>
+                                    <TooltipTrigger>
+                                        <a
+                                            href="https://www.linkedin.com/in/tony-hoong-ab43a6288/"
+                                            target="_blank"
+                                            rel="noreferrer noopener"
+                                            aria-label="My LinkedIn account"
+                                        >
+                                            <GrLinkedin className="text-2xl dark:text-white mr-2" />
+                                        </a>
+                                    </TooltipTrigger>
+                                    <TooltipContent>
+                                        <p>My LinkedIn</p>
+                                    </TooltipContent>
+                                </Tooltip>
+                            </TooltipProvider>
+                            <TooltipProvider>
+                                <Tooltip>
+                                    <TooltipTrigger>
+                                        <a
+                                            href="https://github.com/bizarf"
+                                            target="_blank"
+                                            rel="noreferrer noopener"
+                                            aria-label="My GitHub"
+                                        >
+                                            <GrGithub className="text-2xl dark:text-white mr-2" />
+                                        </a>
+                                    </TooltipTrigger>
+                                    <TooltipContent>
+                                        <p>My GitHub</p>
+                                    </TooltipContent>
+                                </Tooltip>
+                            </TooltipProvider>
+                            <TooltipProvider>
+                                <Tooltip>
+                                    <TooltipTrigger>
+                                        <a
+                                            href="mailto:tonyhoong40@gmail.com"
+                                            aria-label="tonyhoong40@gmail.com"
+                                        >
+                                            <MdOutlineEmail className="text-2xl dark:text-white" />
+                                        </a>
+                                    </TooltipTrigger>
+                                    <TooltipContent>
+                                        <p>My Email</p>
+                                    </TooltipContent>
+                                </Tooltip>
+                            </TooltipProvider>
                         </div>
                     </div>
                 </div>
